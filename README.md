@@ -18,14 +18,11 @@ This repository contains the Python implementation of scVAE, a novel deep learni
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/username/scVAE.git
+git clone https://github.com/Boyu-J/Supervised_Contrastive_VAE.git
 ```
 
-Install the required dependencies:
+Install the required dependencies in requirements.txt
 
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 1. Train scVAE model on your dataset using the provided scripts.
