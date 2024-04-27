@@ -1,2 +1,37 @@
-# Supervised_Contrastive_VAE
-Supervised Contrastive VAE 
+# scVAE: Supervised Contrastive Variational Autoencoder
+
+## Overview
+This repository contains the Python implementation of scVAE, a novel deep learning model that combines contrastive and supervised learning methods into the Variational Autoencoder (VAE) framework. scVAE is designed to learn salient representations from data.
+
+## Features
+- Implementation of scVAE model architecture
+- Training and evaluation scripts
+
+## Requirements
+- Python 3.x
+- TensorFlow
+- NumPy
+- Matplotlib
+- Pandas
+
+## Installation
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/username/scVAE.git
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+1. Train scVAE model on your dataset using the provided scripts.
+2. Utilize the trained scVAE model for various downstream tasks.
+3. Experiment with different hyperparameters and architectures to customize scVAE for your specific application.
+
+## Citation
+If you use scVAE in your research, please consider citing the following paper:
+[ ]
