@@ -28,21 +28,3 @@ def plot_latent_space(encoder, x, y, name='mu'):
     plt.tight_layout()
     plt.show()
     #return ss
-
-# build model
-vae, vae_encoder, vae_decoder = standard_vae(input_dim=fg_train.shape[1], intermediate_dim=[1024, 128, 32], 
-                                             latent_dim=2, alpha=1)
-# train
-history_vae = vae.fit(x = fg_train, epochs=50, batch_size=1280, shuffle = True, verbose = 1)
-# plot latent space
-plot_latent_space(vae_encoder, fg_train, fg_labels_train, name='VAE train,')
-
-# build optimal model
-cVAE, cvae_s_encoder, cvae_z_encoder, cvae_decoder = contrastive_vae(
-                                                                input_dim=fg_train.shape[1], intermediate_dim=[1024, 128, 32], 
-                                                                latent_dim_s = 2, latent_dim_z = 10, 
-                                                                alpha =10)
-# train
-history_cvae = cVAE.fit(fg_train, bg_train, epochs = 60, batch_size = 128, shuffle = True, verbose = 1)
-# plot latent space on training set
-plot_latent_space(cvae_s_encoder, fg_train, fg_labels_train, name='cVAE on training set,')
