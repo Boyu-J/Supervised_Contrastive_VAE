@@ -8,11 +8,15 @@ This repository contains the Python implementation of scVAE, a novel deep learni
 - Training and evaluation scripts
 
 ## Requirements
-- Python 3.x
+- Python 3.11.6
 - TensorFlow
+- Keras
 - NumPy
 - Matplotlib
 - Pandas
+- Scikit-learn
+- Scipy
+
 
 ## Installation
 Clone this repository to your local machine:
@@ -31,4 +35,4 @@ Install the required dependencies in requirements.txt
 
 ## Citation
 If you use scVAE in your research, please consider citing the following paper:
-[ ]
+[Boyu Jiang, Feng Guo. Learning Salient Representation of Crashes and Near-crashes Using Supervised Contrastive Variational Autoencoder. 2024]
