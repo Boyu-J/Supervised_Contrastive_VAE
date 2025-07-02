@@ -35,4 +35,16 @@ Install the required dependencies in requirements.txt
 
 ## Citation
 If you use scVAE in your research, please consider citing the following paper:
-[Boyu Jiang, Feng Guo. Learning Salient Representation of Crashes and Near-crashes Using Supervised Contrastive Variational Autoencoder. 2024]
+
+@article{JIANG2025108148,
+  title   = {Learning salient representation of crashes and near-crashes using supervised contrastive variational autoencoder},
+  journal = {Accident Analysis & Prevention},
+  volume  = {220},
+  pages   = {108148},
+  year    = {2025},
+  issn    = {0001-4575},
+  doi     = {https://doi.org/10.1016/j.aap.2025.108148},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0001457525002349},
+  author  = {Boyu Jiang and Feng Guo}
+}
+
