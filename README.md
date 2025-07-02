@@ -33,9 +33,12 @@ Install the required dependencies in requirements.txt
 2. Utilize the trained scVAE model for various downstream tasks.
 3. Experiment with different hyperparameters and architectures to customize scVAE for your specific application.
 
-## Citation
-If you use scVAE in your research, please consider citing the following paper:
 
+## Citation
+
+If you use **scVAE** in your research, please consider citing:
+
+```
 @article{JIANG2025108148,
   title   = {Learning salient representation of crashes and near-crashes using supervised contrastive variational autoencoder},
   journal = {Accident Analysis & Prevention},
@@ -47,4 +50,6 @@ If you use scVAE in your research, please consider citing the following paper:
   url     = {https://www.sciencedirect.com/science/article/pii/S0001457525002349},
   author  = {Boyu Jiang and Feng Guo}
 }
+```
+
 
