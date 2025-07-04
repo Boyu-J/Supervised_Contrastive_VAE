@@ -39,16 +39,14 @@ Install the required dependencies in requirements.txt
 If you use **scVAE** in your research, please consider citing:
 
 ```
-@article{JIANG2025108148,
-  title   = {Learning salient representation of crashes and near-crashes using supervised contrastive variational autoencoder},
-  journal = {Accident Analysis & Prevention},
-  volume  = {220},
-  pages   = {108148},
-  year    = {2025},
-  issn    = {0001-4575},
-  doi     = {https://doi.org/10.1016/j.aap.2025.108148},
-  url     = {https://www.sciencedirect.com/science/article/pii/S0001457525002349},
-  author  = {Boyu Jiang and Feng Guo}
+@article{jiang2025learning,
+  title={Learning salient representation of crashes and near-crashes using supervised contrastive variational autoencoder},
+  author={Jiang, Boyu and Guo, Feng},
+  journal={Accident Analysis \& Prevention},
+  volume={220},
+  pages={108148},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
